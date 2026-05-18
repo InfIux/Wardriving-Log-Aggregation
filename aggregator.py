@@ -57,7 +57,7 @@ for filename in aggregate:
 
 output_file = filedialog.asksaveasfilename(
     title="Aggregated",
-    defaultextension=".txt",
+    defaultextension=".log",
     filetypes=[("Log Files", ".log")]
 )
 
