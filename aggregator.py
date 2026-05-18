@@ -1,5 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
+import os
+
+os.system("cls")
 
 root = tk.Tk()
 root.withdraw()
