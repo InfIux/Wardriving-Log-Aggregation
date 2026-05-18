@@ -62,6 +62,6 @@ if output_file:
     with open(output_file, "w", encoding="utf-8") as file:
         file.writelines(combined_lines)
 
-    print(f"Combined file saved as:{output_file}")
+    print(f"Combined file:{output_file}")
 else:
     print("Job cancelled.")
